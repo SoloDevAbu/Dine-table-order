@@ -199,7 +199,7 @@ async function seedDatabase() {
     price: "16.50",
     imageUrl: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=80",
     isAvailable: true,
-    ingredients: ["Beef", "Cheddar", "Bun", "Lettuce", "Tomato"]
+    ingredients: ["Cheddar", "Bun", "Lettuce", "Tomato"]
   });
 
   await storage.createMenuItem({
